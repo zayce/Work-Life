@@ -3,6 +3,7 @@ import "./App.css";
 import { Baner } from "./Baner";
 import { AboutInsurance } from "./AboutInsurance/AboutInsurance";
 import { Conditions } from "./Conditions/Conditions";
+import { Servis } from "./Servis/Servis";
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
           <Baner />
           <AboutInsurance />
           <Conditions />
+          <Servis />
         </div>
       </div>
     </>
