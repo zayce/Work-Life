@@ -1,0 +1,88 @@
+.Conditions {
+  .Conditions-Title {
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.28px;
+    text-align: center;
+  }
+  .Conditions-Blocks {
+    padding: 0px 30px;
+    .Conditions-Left {
+      margin-top: 20px;
+      display: flex;
+      gap: 200px;
+      justify-content: center;
+      .Conditions-Left-img {
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Добавляем плавный переход для анимации */
+
+        &:hover {
+          transform: scale(1.05);
+          box-shadow: 0px 6px 25px 3px rgba(41, 41, 41, 0.3);
+        }
+      }
+      .Conditions-Left-block {
+        align-self: center;
+        .Conditions-Left-block-title {
+          font-family: SF Pro Display;
+          font-size: 64px;
+          font-weight: 400;
+          line-height: 76.38px;
+          text-align: left;
+          color: rgba(13, 28, 65, 1);
+        }
+        .Conditions-Left-block-Desc {
+          font-family: SF Pro Display;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 28.64px;
+          text-align: left;
+          color: rgba(13, 28, 65, 1);
+          width: 344px;
+          .Desc {
+            font-family: SF Pro Display;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 28.64px;
+            text-align: left;
+            color: rgba(13, 28, 65, 1);
+          }
+        }
+      }
+    }
+    .Conditions-Right {
+      margin-top: 20px;
+      display: flex;
+      gap: 340px;
+      justify-content: center;
+      .Conditions-Right-img {
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Добавляем плавный переход для анимации */
+
+        &:hover {
+          transform: scale(1.05);
+          box-shadow: 0px 6px 25px 3px rgba(41, 41, 41, 0.3);
+        }
+      }
+      .Conditions-Right-block {
+        align-self: center;
+        .Conditions-Right-block-title {
+          font-family: SF Pro Display;
+          font-size: 64px;
+          font-weight: 400;
+          line-height: 76.38px;
+          text-align: left;
+          color: rgba(13, 28, 65, 1);
+        }
+        .Conditions-Right-block-Desc {
+          font-family: SF Pro Display;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 28.64px;
+          text-align: left;
+          color: rgba(13, 28, 65, 1);
+          width: 344px;
+        }
+      }
+    }
+  }
+}

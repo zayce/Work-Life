@@ -1,6 +1,8 @@
 import { Header } from "./Header";
 import "./App.css";
 import { Baner } from "./Baner";
+import { AboutInsurance } from "./AboutInsurance/AboutInsurance";
+import { Conditions } from "./Conditions/Conditions";
 
 export const App = () => {
   return (
@@ -9,6 +11,8 @@ export const App = () => {
         <div className="Inner-Site">
           <Header />
           <Baner />
+          <AboutInsurance />
+          <Conditions />
         </div>
       </div>
     </>

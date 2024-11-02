@@ -1,0 +1,71 @@
+.AboutInsurance {
+  margin-top: 108px;
+  margin-bottom: 100px;
+  .AboutInsurance-Title {
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.28px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .AboutInsurance-Blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+
+    .AboutInsurance-Block {
+      width: 165px;
+      background-color: rgba(221, 208, 164, 1);
+      border-radius: 20px 20px 20px 20px;
+
+      transition: transform 0.3s ease, box-shadow 0.3s ease; /* Добавляем плавный переход для анимации */
+
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 6px 25px 3px rgba(41, 41, 41, 0.3);
+      }
+      .AboutInsurance-titles {
+        height: 14px;
+        font-family: SF Pro Display;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        padding: 4px 27px 29px 27px;
+        color: white;
+      }
+      .AboutInsurance-desc {
+        height: 190px;
+        padding: 16px;
+        border-radius: 20px 20px 20px 20px;
+        box-shadow: 0px 6px 25px 3px rgba(41, 41, 41, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+          transform: scale(1.1);
+          box-shadow: 0px 6px 25px 3px rgba(41, 41, 41, 0.6);
+        }
+        background-color: rgba(255, 255, 255, 1);
+        .Img {
+          width: 68px;
+          margin-left: 30px;
+          margin-bottom: 21px;
+          img {
+            width: 68px;
+            height: 68px;
+            text-align: center;
+          }
+        }
+        .AboutInsurance-name {
+          font-family: SF Pro Display;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16.71px;
+          text-align: center;
+          color: rgba(13, 28, 65, 1);
+        }
+      }
+    }
+  }
+}
