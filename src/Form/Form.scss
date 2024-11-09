@@ -1,0 +1,92 @@
+.Form {
+  margin-top: 108px;
+  .Form-Title {
+    font-family: SF Pro Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.28px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 10px;
+  }
+  .Form-Desc {
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.48px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(13, 28, 65, 1);
+    margin-bottom: 60px;
+  }
+  .Form-Opis {
+    display: flex;
+    justify-content: space-between;
+    .Registr {
+      .Registr-Foto {
+        margin-left: 150px;
+        margin-bottom: 30px;
+      }
+      .Label {
+        width: 365px;
+        height: 71px;
+        margin-bottom: 40px;
+        .Label-Name {
+          font-family: SF Pro Display;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16.71px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+          margin-bottom: 5px;
+        }
+        .input {
+          width: 365px;
+          height: 50px;
+          padding: 17px 24px 16px 24px;
+          border-radius: 10px 10px 10px 10px;
+          box-shadow: -2px -2px 5px 0px rgba(20, 29, 61, 0.15);
+          box-shadow: 2px 2px 5px 0px rgba(20, 29, 61, 0.15);
+          margin-bottom: 25px;
+        }
+        input:focus {
+          outline: none;
+          border-color: rgba(43, 44, 44, 0.078);
+          box-shadow: 0 0 5px rgba(43, 44, 44, 0.078);
+        }
+      }
+      .Buttons {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        .get {
+          padding: 10px 20px;
+          background-color: #4caf50;
+
+          border: 2px solid transparent;
+          cursor: pointer;
+          transition: border 0.3s ease, color 0.3s ease,
+            background-color 0.3s ease;
+          span {
+            font-family: SF Pro Display;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.09px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #fff;
+          }
+          &:hover {
+            border: 2px solid #4caf50; /* Появляется граница при наведении */
+            color: black; /* Изменение цвета текста */
+            background-color: #336520;
+          }
+        }
+      }
+    }
+  }
+}
